@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T04:13:46.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="YNH2nliVRAxR8BCD6DlC" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T04:15:58.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Rs0P5DobiWvQHJy5i9Zk" version="15.3.2" type="github">
   <diagram id="wmzFF8ZW-TtcjmjGAijd" name="Page-1">
     <mxGraphModel dx="920" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="330" y="130" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oMuAc7XEMQi0iDj_1vLF-7" value="JIRA Assert That&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="130" width="106" height="80" as="geometry" />
+          <mxGeometry x="414" y="60" width="106" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oMuAc7XEMQi0iDj_1vLF-8" value="Jenkin Docker Container" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="260" width="120" height="60" as="geometry" />
@@ -46,24 +46,20 @@
             <mxPoint x="440" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oMuAc7XEMQi0iDj_1vLF-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.709;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oMuAc7XEMQi0iDj_1vLF-7" target="oMuAc7XEMQi0iDj_1vLF-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="270" as="sourcePoint" />
-            <mxPoint x="440" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="oMuAc7XEMQi0iDj_1vLF-16" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oMuAc7XEMQi0iDj_1vLF-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="270" as="sourcePoint" />
             <mxPoint x="590" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oMuAc7XEMQi0iDj_1vLF-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.038;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oMuAc7XEMQi0iDj_1vLF-8" target="oMuAc7XEMQi0iDj_1vLF-7">
+        <mxCell id="oMuAc7XEMQi0iDj_1vLF-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oMuAc7XEMQi0iDj_1vLF-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="270" as="sourcePoint" />
-            <mxPoint x="440" y="220" as="targetPoint" />
+            <mxPoint x="524" y="90" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="660" y="120" />
               <mxPoint x="660" y="180" />
+              <mxPoint x="660" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -72,6 +68,15 @@
         </mxCell>
         <mxCell id="oMuAc7XEMQi0iDj_1vLF-19" value="BDD Report" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="160" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oMuAc7XEMQi0iDj_1vLF-21" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="80" as="sourcePoint" />
+            <mxPoint x="134" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="134" y="80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
